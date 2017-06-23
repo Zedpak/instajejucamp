@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Feed | Instaclone</title>
+        <title>Explore | Instaclone</title>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     </head>
@@ -32,50 +32,27 @@
                 </a>
             </div>
         </nav>
-        <main class="feed">
-            <section class="photo">
-                <header class="photo__header">
-                    <div class="photo__header-column">
-                        <img
-                            class="photo__avatar"
-                            src="images/avatar.jpg"
-                        />
-                    </div>
-                    <div class="photo__header-column">
-                        <span class="photo__username">Junki Song</span>
-                        <span class="photo__location">South Korean Actor</span>
-                    </div>
-                </header>
-                <div class="photo__file-container">
-                    <img
-                        class="photo__file"
-                        src="images/feedPhoto.jpg"
-                    />
-                </div>
-                <div class="photo__info">
-                    <div class="photo__icons">
-                        <span class="photo__icon">
-                            <i class="fa fa-heart-o fa-lg"></i>
-                        </span>
-                        <span class="photo__icon">
-                            <i class="fa fa-comment-o fa-lg"></i>
-                        </span>
-                    </div>
-                    <span class="photo__likes">35 likes</span>
-                    <ul class="photo__comments">
-                        <li class="photo__comment">
-                            <span class="photo__comment-author">serranoarevalo</span> wow this is great!
-                        </li>
-                        <li class="photo__comment">
-                            <span class="photo__comment-author">lynn</span> no is not!
-                        </li>
-                    </ul>
-                    <span class="photo__time-ago">11 hours ago</span>
-                    <div class="photo__add-comment-container">
-                        <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
-                        <i class="fa fa-ellipsis-h"></i>
-                    </div>
-                </div>
+        <main class="explore">
+            <section class="people">
+                <ul class="people__list">
+                    <li class="people__person">
+                        <div class="people__column">
+                            <div class="people__avatar-container">
+                                <img 
+                                    src="images/avatar.jpg"
+                                    class="people__avatar"
+                                />
+                            </div>
+                            <div class="people__info">
+                                <span class="people__username">davidbeckham</span>
+                                <span class="people__full-name">David Beckham</span>
+                            </div>
+                        </div>
+                        <div class="people__column">
+                            <a href="#">Follow</a>
+                        </div>
+                    </li>
+                </ul>
             </section>
         </main>
         <footer class="footer">

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Feed | Instaclone</title>
+        <title>Profile | Instaclone</title>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     </head>
@@ -32,49 +32,54 @@
                 </a>
             </div>
         </nav>
-        <main class="feed">
-            <section class="photo">
-                <header class="photo__header">
-                    <div class="photo__header-column">
-                        <img
-                            class="photo__avatar"
+        <main class="profile-container">
+            <section class="profile">
+                <header class="profile__header">
+                    <div class="profile__avatar-container">
+                        <img 
                             src="images/avatar.jpg"
+                            class="profile__avatar"
                         />
                     </div>
-                    <div class="photo__header-column">
-                        <span class="photo__username">Junki Song</span>
-                        <span class="photo__location">South Korean Actor</span>
+                    <div class="profile__info">
+                        <div class="profile__name">
+                            <h1 class="profile__title">serranoarevalo</h1>
+                            <a href="edit-profile.html" class="profile__button">Edit profile</a>
+                            <i class="fa fa-cog fa-lg"></i>
+                        </div>
+                        <ul class="profile__numbers">
+                            <li class="profile__posts">
+                                <span class="profile__number">10</span> posts
+                            </li>
+                            <li class="profile__followers">
+                                <span class="profile__number">40</span> followers
+                            </li>
+                            <li class="profile__following">
+                                <span class="profile__number">134</span> following
+                            </li>
+                        </ul>
+                        <div class="profile__bio">
+                            <span class="profile__full-name">Junki Song</span>
+                            <p class="profile__full-bio">Famous South Korea Actor. He is interviewing about the movie which will be released soon.</p>
+                            <a href="http://serranoarevalo.com" class="profile__link">serranoarevalo.com</a>
+                        </div>
                     </div>
                 </header>
-                <div class="photo__file-container">
-                    <img
-                        class="photo__file"
-                        src="images/feedPhoto.jpg"
-                    />
-                </div>
-                <div class="photo__info">
-                    <div class="photo__icons">
-                        <span class="photo__icon">
-                            <i class="fa fa-heart-o fa-lg"></i>
-                        </span>
-                        <span class="photo__icon">
-                            <i class="fa fa-comment-o fa-lg"></i>
-                        </span>
-                    </div>
-                    <span class="photo__likes">35 likes</span>
-                    <ul class="photo__comments">
-                        <li class="photo__comment">
-                            <span class="photo__comment-author">serranoarevalo</span> wow this is great!
-                        </li>
-                        <li class="photo__comment">
-                            <span class="photo__comment-author">lynn</span> no is not!
-                        </li>
-                    </ul>
-                    <span class="photo__time-ago">11 hours ago</span>
-                    <div class="photo__add-comment-container">
-                        <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
-                        <i class="fa fa-ellipsis-h"></i>
-                    </div>
+                <div class="profile__pictures">
+                    <a class="profile-picture">
+                        <img
+                            src="images/feedPhoto.jpg"
+                            class="profile-picture__picture"
+                        />
+                        <div class="profile-picture__overlay">
+                            <span class="profile-picture__number">
+                                <i class="fa fa-heart"></i> 450
+                            </span>
+                            <span class="profile-picture__number">
+                                <i class="fa fa-comment"></i> 39
+                            </span>
+                        </div>
+                    </a>
                 </div>
             </section>
         </main>
