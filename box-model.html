@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Box  Model</title>
+	<style>
+	html {
+		 height:100%;
+
+		}
+
+		body{
+			margin:0px;
+			background: red;
+			height: 100%
+		}
+		.parent{
+			margin:30px;
+			padding: 30px;
+			background-color: blue;
+			height:100%;
+			width:100%
+			box-sizing: border-box;
+			display:flex; 
+			justify-content: space-between;
+			align-items:stretch;
+
+		}
+		.child{
+			height:10%;
+			width:100px;
+			background-color: pink;
+			box-sizing: border-box;
+			border:2px inset red;
+			border-top-style: dashed;
+			border-bottom-color:green;
+			border-bottom-width:4px;
+		}
+		#one{
+			align-self: flex-start;
+			}
+		#two{
+			align-self: center;
+			}
+		#three{
+			align-self: flex-end;
+			}
+		/* Complete this */
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="child" id="one">
+		</div>
+		<div class="child" id="two">
+		</div>
+		<div class="child" id="three">
+		</div>
+	</div>
+</body>
+</html>
