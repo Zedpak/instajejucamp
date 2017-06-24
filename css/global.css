@@ -12,3 +12,7 @@ a{
 input:focus{
 	outline:none;
 }
+
+.u-fat-text{
+	font-weight:600;
+}
