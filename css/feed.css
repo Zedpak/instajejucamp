@@ -9,7 +9,7 @@
     background-color: white;
     border-radius: 5px;
     border:1px solid rgba(0,0,0,.0975);
-    max-width: 600px;
+    max-width: 800px;
     margin-bottom: 40px;
 }
 
@@ -34,7 +34,6 @@
 }
 
 .photo__file{
-    min-width: 100%;
     max-width: 100%;
 }
 
@@ -95,4 +94,8 @@
 
 .photo__add-comment:focus{
     outline: none;
+}
+
+.heart-red{
+    color:red;
 }
